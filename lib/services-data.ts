@@ -31,7 +31,7 @@ export const services: Service[] = [
       'We use modern frameworks like Next.js and React with server-side rendering where it matters. Every component is tested, every API call is optimized, and every deployment is automated.',
     result:
       'Typical projects launch in 8–12 weeks with 90+ Lighthouse performance scores. Our clients see 60% faster load times and 40% higher conversion rates.',
-    technologies: ['Next.js', 'React', 'TypeScript', 'Node.js', 'PostgreSQL'],
+    technologies: ['Next.js', 'React.js', 'TypeScript', 'Redux Toolkit', 'Material UI', 'Tailwind CSS'],
     keywords: [
       'web application development',
       'single page application',
@@ -58,7 +58,7 @@ export const services: Service[] = [
       'We use React Native for cross-platform speed or native Swift/Kotlin when performance is critical. Every app includes offline support, crash reporting, and analytics from day one.',
     result:
       'Apps typically launch in 10–14 weeks with 4.5+ star ratings. Our optimization process reduces app size by 40% and improves startup time by 50%.',
-    technologies: ['React Native', 'Swift', 'Kotlin', 'Flutter', 'Firebase'],
+    technologies: ['React Native', 'TypeScript', 'Redux Toolkit', 'React Query', 'Jest'],
     keywords: [
       'mobile app development',
       'iOS development',
@@ -85,7 +85,7 @@ export const services: Service[] = [
       'We build with Electron for cross-platform reach or native technologies when performance is critical. Every app includes proper installer, auto-updates, and crash reporting.',
     result:
       'Desktop apps ship in 10–16 weeks depending on complexity. Our apps use 50% less memory than typical Electron apps and feel truly native.',
-    technologies: ['Electron', 'TypeScript', 'Node.js', '.NET', 'SQLite'],
+    technologies: ['Electron', 'React.js', 'TypeScript', 'Redux Toolkit', 'Styled Components'],
     keywords: [
       'desktop app development',
       'Electron development',
@@ -112,7 +112,7 @@ export const services: Service[] = [
       'We use modern platforms like Vercel, Netlify, or AWS with automated deployments from Git. Every commit is tested and deployed automatically with zero downtime.',
     result:
       '99.9% uptime guaranteed. Deployments happen in under 2 minutes. Global CDN ensures fast load times worldwide.',
-    technologies: ['Vercel', 'AWS', 'Cloudflare', 'GitHub Actions', 'Docker'],
+    technologies: ['AWS (S3, EC2)', 'Microsoft Azure', 'Docker', 'GitHub Actions', 'Bitbucket Pipelines'],
     keywords: [
       'web hosting',
       'domain registration',
@@ -140,7 +140,7 @@ export const services: Service[] = [
       'We write automated tests alongside code — unit, integration, and end-to-end. Manual QA happens on real devices with real scenarios. Security audits run on every build.',
     result:
       'Our clients see 80% fewer production bugs and 99% CI pass rates. Security audits catch vulnerabilities before they ship.',
-    technologies: ['Jest', 'Playwright', 'Cypress', 'GitHub Actions', 'Lighthouse'],
+    technologies: ['Jest', 'React Testing Library', 'Cypress', 'Lighthouse', 'WCAG'],
     keywords: [
       'QA testing',
       'automated testing',
@@ -148,6 +148,34 @@ export const services: Service[] = [
       'quality assurance',
       'security testing',
       'performance testing',
+    ],
+  },
+  {
+    slug: 'website-maintenance',
+    title: 'Website Maintenance',
+    shortDescription: 'Keep your website running smoothly with ongoing maintenance and updates. Whether we built it or someone else did, we handle security patches, feature updates, and technical improvements.',
+    bullets: [
+      'Regular security and framework updates',
+      'Performance monitoring and optimization',
+      'Content updates and feature additions',
+    ],
+    icon: 'web',
+    fullDescription:
+      'Ongoing website maintenance to keep your site secure, fast, and up-to-date. We maintain sites we built and take over existing projects seamlessly.',
+    challenge:
+      'Websites require constant updates for security patches, framework upgrades, and performance optimization. Neglected sites become vulnerable and slow, damaging user trust.',
+    approach:
+      'We provide monthly maintenance packages including security updates, performance monitoring, backup management, and feature enhancements. For existing sites, we audit the codebase first, then implement improvements systematically.',
+    result:
+      'Maintained sites stay secure with 99.9% uptime. Regular updates prevent security breaches and performance degradation. Clients see 30% faster load times after optimization.',
+    technologies: ['Git', 'GitHub Actions', 'Docker', 'Lighthouse', 'OWASP'],
+    keywords: [
+      'website maintenance',
+      'website support',
+      'security updates',
+      'performance optimization',
+      'content management',
+      'technical support',
     ],
   },
 ]

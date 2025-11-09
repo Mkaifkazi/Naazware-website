@@ -11,7 +11,7 @@ export default function Footer() {
     <footer
       className="py-5 mt-auto no-print white-section-animated"
       style={{
-        backgroundColor: '#1a1a2e',
+        backgroundColor: '#1e3a8a',
         color: 'white',
         position: 'relative',
         overflow: 'hidden'
@@ -19,7 +19,7 @@ export default function Footer() {
     >
       <WhiteAnimatedShapes />
       <div className="container" style={{ position: 'relative', zIndex: 1 }}>
-        <div className="row g-5 mb-5">
+        <div className="row g-4 g-md-5 mb-4 mb-md-5">
           {/* Brand & Description */}
           <div className="col-lg-4">
             <div className="d-flex align-items-center mb-4">
@@ -100,7 +100,7 @@ export default function Footer() {
           </div>
 
           {/* Quick Links */}
-          <div className="col-lg-2 col-md-4">
+          <div className="col-lg-2 col-md-4 col-6">
             <h6 className="fw-bold mb-4 text-uppercase" style={{ color: 'white', fontSize: '0.9rem', letterSpacing: '0.5px' }}>
               Company
             </h6>
@@ -153,7 +153,7 @@ export default function Footer() {
           </div>
 
           {/* Services */}
-          <div className="col-lg-3 col-md-4">
+          <div className="col-lg-3 col-md-4 col-6">
             <h6 className="fw-bold mb-4 text-uppercase" style={{ color: 'white', fontSize: '0.9rem', letterSpacing: '0.5px' }}>
               Services
             </h6>
@@ -217,7 +217,7 @@ export default function Footer() {
           </div>
 
           {/* Contact */}
-          <div className="col-lg-3 col-md-4">
+          <div className="col-lg-3 col-md-4 col-12">
             <h6 className="fw-bold mb-4 text-uppercase" style={{ color: 'white', fontSize: '0.9rem', letterSpacing: '0.5px' }}>
               Get in Touch
             </h6>
@@ -231,7 +231,7 @@ export default function Footer() {
               </a>
             </p>
             <p className="mb-4" style={{ color: 'rgba(255, 255, 255, 0.6)', fontSize: '0.9rem' }}>
-              Reply within 48 hours
+              Reply within 24 hours
             </p>
             <Link
               href="/contact"
@@ -242,7 +242,7 @@ export default function Footer() {
                 fontWeight: '600',
                 borderRadius: '8px',
                 border: 'none',
-                boxShadow: '0 4px 14px rgba(124, 58, 237, 0.4)'
+                boxShadow: '0 4px 14px rgba(37, 99, 235, 0.4)'
               }}
             >
               Start a Project

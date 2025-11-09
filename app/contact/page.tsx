@@ -9,7 +9,7 @@ import '@/styles/white-section-animated.css'
 export const metadata: Metadata = genMeta({
   title: 'Contact',
   description:
-    'Get in touch to discuss your project. We reply within 48 hours with a detailed estimate and timeline.',
+    'Get in touch to discuss your project. We reply within 24 hours with a detailed estimate and timeline.',
   path: '/contact',
 })
 
@@ -24,7 +24,7 @@ export default function ContactPage() {
             <div className="col-lg-8">
               <h1 className="display-4 fw-bold mb-4">Let's Talk</h1>
               <p className="lead text-secondary">
-                Tell us about your project. We'll reply within 48 hours with an estimate and
+                Tell us about your project. We'll reply within 24 hours with an estimate and
                 timeline.
               </p>
             </div>
@@ -58,7 +58,7 @@ export default function ContactPage() {
                     info@naazwarelabs.com
                   </a>
                 </p>
-                <p className="text-muted small">We reply within 48 hours</p>
+                <p className="text-muted small">We reply within 24 hours</p>
               </div>
 
               <div className="mb-5">
@@ -77,7 +77,7 @@ export default function ContactPage() {
                       <polyline points="20 6 9 17 4 12" />
                     </svg>
                     <span className="text-secondary">
-                      Reply within 48 hours (usually faster)
+                      Reply within 24 hours (usually faster)
                     </span>
                   </li>
                   <li className="mb-3 d-flex align-items-start">

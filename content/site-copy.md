@@ -33,7 +33,7 @@ All text content for the website in one place.
 
 ### Contact
 **Title**: Contact | Naazware Labs
-**Description**: Get in touch to discuss your project. We reply within 48 hours with a detailed estimate and timeline.
+**Description**: Get in touch to discuss your project. We reply within 24 hours with a detailed estimate and timeline.
 **Keywords**: contact us, get a quote, project estimate
 
 ---
@@ -67,7 +67,7 @@ All text content for the website in one place.
 
 ### Final CTA Section
 **Heading**: Ready to start your project?
-**Description**: Tell us what you're building. We'll reply within 48 hours with an estimate and timeline.
+**Description**: Tell us what you're building. We'll reply within 24 hours with an estimate and timeline.
 **CTA**: Get a free estimate
 
 ---
@@ -284,7 +284,7 @@ All text content for the website in one place.
 Let's Talk
 
 ### Subheading
-Tell us about your project. We'll reply within 48 hours with an estimate and timeline.
+Tell us about your project. We'll reply within 24 hours with an estimate and timeline.
 
 ### Form Fields
 - Name *
@@ -300,10 +300,10 @@ Tell us about your project. We'll reply within 48 hours with an estimate and tim
 - I agree to be contacted about my project *
 
 ### Form Help Text
-We'll reply within 48 hours.
+We'll reply within 24 hours.
 
 ### What to Expect
-- Reply within 48 hours (usually faster)
+- Reply within 24 hours (usually faster)
 - Honest assessment of timeline and budget
 - Clear next steps if we're a good fit
 - No sales pressure or pushy follow-ups
@@ -381,7 +381,7 @@ Our clients range from startups launching their first product to established com
 
 ### Contact Info
 **Email**: info@naazwarelabs.com
-**Reply time**: Within 48 hours
+**Reply time**: Within 24 hours
 
 ### Legal
 - Privacy Policy

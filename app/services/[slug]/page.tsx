@@ -138,47 +138,15 @@ export default function ServiceDetailPage({ params }: { params: { slug: string }
         </div>
       </section>
 
-      {/* Tech Stack */}
+      {/* CTA */}
       <section className="section-padding white-section-animated" style={{ backgroundColor: 'var(--bg-primary)' }}>
         <WhiteAnimatedShapes />
-        <div className="container" style={{ position: 'relative', zIndex: 1 }}>
-          <div className="row justify-content-center">
-            <div className="col-lg-8">
-              <h2 className="h3 fw-bold mb-4">Technology Stack</h2>
-              <p className="text-secondary mb-4">
-                We use modern, proven technologies that balance developer productivity with
-                long-term maintainability.
-              </p>
-              <div className="d-flex flex-wrap gap-3">
-                {service.technologies.map((tech) => (
-                  <span
-                    key={tech}
-                    className="badge px-4 py-3"
-                    style={{
-                      backgroundColor: 'var(--accent)',
-                      color: 'white',
-                      borderRadius: 'var(--radius-full)',
-                      fontSize: '1rem',
-                    }}
-                  >
-                    {tech}
-                  </span>
-                ))}
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* CTA */}
-      <section className="section-padding position-relative" style={{ backgroundColor: 'var(--bg-surface)' }}>
-        <DecorativeShapes variant="1" />
         <div className="container position-relative" style={{ zIndex: 1 }}>
           <div className="row justify-content-center text-center">
             <div className="col-lg-8">
               <h2 className="display-5 fw-bold mb-4">Ready to get started?</h2>
               <p className="lead text-secondary mb-4">
-                Tell us about your project and we'll send you a detailed estimate within 48 hours.
+                Tell us about your project and we'll send you a detailed estimate within 24 hours.
               </p>
               <div className="d-flex flex-wrap gap-3 justify-content-center">
                 <Link href="/contact" className="btn btn-primary btn-lg">

@@ -32,3 +32,10 @@ yarn-error.log*
 # TypeScript
 *.tsbuildinfo
 next-env.d.ts
+
+# Markdown files except README
+*.md
+!README.md
+
+# Claude folder
+.claude/

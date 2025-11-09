@@ -1,20 +1,20 @@
 'use client'
 
 import { useEffect, useRef } from 'react'
-import LocomotiveScroll from 'locomotive-scroll'
-import 'locomotive-scroll/locomotive-scroll.css'
 
 export default function SmoothScroll() {
-  const scrollRef = useRef<LocomotiveScroll | null>(null)
+  const scrollRef = useRef<any>(null)
 
   useEffect(() => {
     if (typeof window !== 'undefined') {
-      scrollRef.current = new LocomotiveScroll({
-        lenisOptions: {
-          duration: 1.2,
-          smoothWheel: true,
-          smoothTouch: false,
-        },
+      import('locomotive-scroll').then((LocomotiveScroll) => {
+        scrollRef.current = new LocomotiveScroll.default({
+          lenisOptions: {
+            duration: 1.2,
+            smoothWheel: true,
+            smoothTouch: false,
+          },
+        })
       })
 
       return () => {

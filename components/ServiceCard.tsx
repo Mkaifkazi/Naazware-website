@@ -16,7 +16,7 @@ export default function ServiceCard({
   icon,
 }: ServiceCardProps) {
   return (
-    <div className="card h-100 border-0 shadow-sm" style={{ backgroundColor: 'white' }}>
+    <div className="card h-100 border-0 shadow-sm card-hover-lift" style={{ backgroundColor: 'white' }}>
       <div className="card-body p-4 d-flex flex-column">
         <div className="mb-4">{icon}</div>
         <h3 className="h5 fw-bold mb-3" style={{ color: '#1f2937' }}>{title}</h3>

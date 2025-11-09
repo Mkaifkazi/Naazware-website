@@ -20,6 +20,7 @@ export default function Header() {
         { href: '/services/desktop-development', label: 'Desktop Apps' },
         { href: '/services/domain-hosting', label: 'Domain & Hosting' },
         { href: '/services/qa-testing', label: 'QA & Testing' },
+        { href: '/services/website-maintenance', label: 'Website Maintenance' },
       ]
     },
     { href: '/work', label: 'Work' },
@@ -31,6 +32,11 @@ export default function Header() {
   const isActive = (href: string) => {
     if (href === '/') return pathname === '/'
     return pathname?.startsWith(href)
+  }
+
+  const handleLinkClick = () => {
+    setIsMenuOpen(false)
+    setIsServicesOpen(false)
   }
 
   return (
@@ -126,6 +132,7 @@ export default function Header() {
                                 padding: '0.7rem 1.5rem',
                                 transition: 'all 0.2s ease'
                               }}
+                              onClick={handleLinkClick}
                               onMouseEnter={(e) => {
                                 e.currentTarget.style.backgroundColor = 'rgba(124, 58, 237, 0.1)'
                                 e.currentTarget.style.color = 'var(--accent)'
@@ -148,6 +155,7 @@ export default function Header() {
                       style={{
                         color: isActive(link.href) ? 'var(--accent)' : 'var(--text-secondary)',
                       }}
+                      onClick={handleLinkClick}
                     >
                       {link.label}
                     </Link>
@@ -155,7 +163,7 @@ export default function Header() {
                 </li>
               ))}
               <li className="nav-item ms-lg-2">
-                <Link href="/contact" className="btn btn-primary">
+                <Link href="/contact" className="btn btn-primary" onClick={handleLinkClick}>
                   Get a Quote
                 </Link>
               </li>

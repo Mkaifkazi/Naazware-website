@@ -7,6 +7,7 @@ import SmoothScroll from '@/components/SmoothScroll'
 import { generateMetadata as genMeta, generateOrganizationSchema } from '@/lib/seo'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import '@/styles/globals.css'
+import '@/styles/animations.css'
 
 export const metadata: Metadata = genMeta({
   title: 'Naazware Labs',

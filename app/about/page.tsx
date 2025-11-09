@@ -211,7 +211,7 @@ export default function AboutPage() {
             <div className="col-lg-8">
               <h2 className="display-5 fw-bold mb-4">Want to work with us?</h2>
               <p className="lead text-secondary mb-4">
-                Tell us about your project and we'll get back to you within 48 hours.
+                Tell us about your project and we'll get back to you within 24 hours.
               </p>
               <Link href="/contact" className="btn btn-primary btn-lg">
                 Start a conversation

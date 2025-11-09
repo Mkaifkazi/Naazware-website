@@ -132,7 +132,7 @@ export default function ContactForm() {
           style={{ borderRadius: 'var(--radius-sm)' }}
         />
         {errors.message && <div className="invalid-feedback">{errors.message.message}</div>}
-        <div className="form-text">We'll reply within 48 hours.</div>
+        <div className="form-text">We'll reply within 24 hours.</div>
       </div>
 
       <div className="mb-4">
@@ -152,7 +152,7 @@ export default function ContactForm() {
 
       {submitStatus === 'success' && (
         <div className="alert alert-success" role="alert">
-          Thanks for reaching out! We'll be in touch within 48 hours.
+          Thanks for reaching out! We'll be in touch within 24 hours.
         </div>
       )}
 

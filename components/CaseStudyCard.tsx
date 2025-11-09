@@ -18,7 +18,7 @@ export default function CaseStudyCard({
   metrics,
 }: CaseStudyCardProps) {
   return (
-    <div className="card h-100 border-0 shadow-sm">
+    <div className="card h-100 border-0 shadow-sm card-hover-lift">
       <div className="card-body p-4">
         <div className="d-flex justify-content-between align-items-start mb-3">
           <span

@@ -78,7 +78,7 @@ export default function HomePage() {
               <div className="col-lg-9">
                 <div className="glass-container text-center">
                   <h1 className="display-4 fw-bold mb-4">
-                  Launch faster, Scale smarter Build with NaazWare
+                  Launch faster, Scale smarter Build with <span style={{ fontWeight: '300' }}>NaazWare</span>
                   </h1>
                   <p className="lead mb-4" style={{ color: '#4b5563' }}>
                   From concept to deployment, we craft software that works beautifully.
@@ -242,7 +242,7 @@ export default function HomePage() {
             <div className="col-lg-8 text-center">
               <h2 className="display-5 fw-bold mb-4">Ready to start your project?</h2>
               <p className="lead text-secondary mb-4">
-                Tell us what you&apos;re building. We&apos;ll reply within 48 hours with an estimate and
+                Tell us what you&apos;re building. We&apos;ll reply within 24 hours with an estimate and
                 timeline.
               </p>
               <Link href="/contact" className="btn btn-primary btn-lg">
