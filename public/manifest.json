@@ -1,0 +1,16 @@
+{
+  "name": "Naazware Labs - IT Consulting & Solutions",
+  "short_name": "Naazware Labs",
+  "description": "Web, mobile, and desktop app development with pragmatic engineering and clear timelines",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#7c3aed",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
