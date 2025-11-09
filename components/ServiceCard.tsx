@@ -11,7 +11,6 @@ interface ServiceCardProps {
 export default function ServiceCard({
   title,
   description,
-  bullets,
   href,
   icon,
 }: ServiceCardProps) {

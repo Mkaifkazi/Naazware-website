@@ -3,10 +3,11 @@
 import { useEffect, useRef } from 'react'
 
 export default function SmoothScroll() {
-  const scrollRef = useRef<any>(null)
+  const scrollRef = useRef<{ destroy: () => void } | null>(null)
 
   useEffect(() => {
     if (typeof window !== 'undefined') {
+      // @ts-expect-error - locomotive-scroll types issue
       import('locomotive-scroll').then((LocomotiveScroll) => {
         scrollRef.current = new LocomotiveScroll.default({
           lenisOptions: {
