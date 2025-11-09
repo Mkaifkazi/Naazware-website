@@ -49,7 +49,7 @@ export default function Footer() {
             </p>
             <div className="d-flex gap-3">
               <a
-                href="https://linkedin.com/company/naazware-labs"
+                href="https://www.linkedin.com/in/mohammedkaifkazi/"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="LinkedIn"
@@ -65,7 +65,7 @@ export default function Footer() {
                 </svg>
               </a>
               <a
-                href="https://twitter.com/naazwarelabs"
+                href="https://x.com/KaifKazi10"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Twitter"
@@ -81,7 +81,7 @@ export default function Footer() {
                 </svg>
               </a>
               <a
-                href="https://github.com/naazware-labs"
+                href="https://github.com/Mkaifkazi"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="GitHub"
@@ -221,17 +221,26 @@ export default function Footer() {
             <h6 className="fw-bold mb-4 text-uppercase" style={{ color: 'white', fontSize: '0.9rem', letterSpacing: '0.5px' }}>
               Get in Touch
             </h6>
-            <p className="mb-3">
+            <p className="mb-2">
               <a
-                href="mailto:info@naazwarelabs.com"
+                href="mailto:kaifkazi40@gmail.com"
                 className="text-decoration-none"
-                style={{ color: 'rgba(255, 255, 255, 0.8)', fontSize: '1rem' }}
+                style={{ color: 'rgba(255, 255, 255, 0.8)', fontSize: '0.95rem' }}
               >
-                info@naazwarelabs.com
+                kaifkazi40@gmail.com
               </a>
             </p>
-            <p className="mb-4" style={{ color: 'rgba(255, 255, 255, 0.6)', fontSize: '0.9rem' }}>
-              Reply within 24 hours
+            <p className="mb-2">
+              <a
+                href="tel:+919327356760"
+                className="text-decoration-none"
+                style={{ color: 'rgba(255, 255, 255, 0.8)', fontSize: '0.95rem' }}
+              >
+                +91 9327356760
+              </a>
+            </p>
+            <p className="mb-4" style={{ color: 'rgba(255, 255, 255, 0.7)', fontSize: '0.9rem' }}>
+              Tandalja, Vadodara, Gujarat
             </p>
             <Link
               href="/contact"

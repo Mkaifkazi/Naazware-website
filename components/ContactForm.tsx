@@ -158,7 +158,7 @@ export default function ContactForm() {
 
       {submitStatus === 'error' && (
         <div className="alert alert-danger" role="alert">
-          Something went wrong. Please try again or email us directly at info@naazwarelabs.com
+          Something went wrong. Please try again or email us directly at kaifkazi40@gmail.com
         </div>
       )}
 
